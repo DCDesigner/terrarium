@@ -1,0 +1,70 @@
+.box1 { background-color: #bdc3c7;}
+.box2 { background-color: #bdc3c7;}
+.box3 { background-color: #bdc3c7;}
+.box4 { background-color: #bdc3c7;}
+.box5 { background-color: #bdc3c7;}
+.box6 { background-color: #bdc3c7;}
+.box7 { background-color: #bdc3c7;}
+.box8 { background-color: #ffffff;}
+.box9 { background-color: #bdc3c7;}
+.box10 { background-color: #bdc3c7;}
+.box11 { background-color: #bdc3c7;}
+.box12 { background-color: #bdc3c7;}
+.box13 { background-color: #bdc3c7;}
+.box14 { background-color: #bdc3c7;}
+.box15 { background-color: #bdc3c7;}
+
+.box{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    text-align:center;
+    padding: 10px;
+}
+.container {
+    display:flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box {
+    flex-grow: 1;
+	
+}
+
+.box8 {
+   flex-basis: 517px;
+   margin-bottom: 39px;
+}
+
+.plant {
+    width: 59px;
+}
+
+.jar-walls {
+    justify-content: center;
+	height: 80%;
+	background: #d1e1df;
+	border-radius: 1rem;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.jar-top {
+	height: 5%;
+	background: #d1e1df;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	height: 1%;
+	background: #d1e1df;
+	bottom: 0%;
+	left: 25%;
+	opacity: 0.7;
+}
